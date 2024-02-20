@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9136fcb-5f32-482e-863b-2604f68c860f" name="Changes" comment="Creating project">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/restcountriesfx/Models/CountryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/restcountriesfx/Services/FakeRestCountriesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/restcountriesfx/Services/IRestCountries.java" afterDir="false" />
+    <list default="true" id="d9136fcb-5f32-482e-863b-2604f68c860f" name="Changes" comment="getDataUrl">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/restcountriesfx/Models/Currencies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/restcountriesfx/Models/Currency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/restcountriesfx/Models/Flag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/restcountriesfx/Models/Name.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/restcountriesfx/Models/CountryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/restcountriesfx/Models/CountryDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/restcountriesfx/RestCountriesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/restcountriesfx/RestCountriesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/restcountriesfx/Services/RestCountriesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/restcountriesfx/Services/RestCountriesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/restcountriesfx/restcountries-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/restcountriesfx/restcountries-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +40,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2cb3vO7A474JilejbgEK8bX9Lj3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -43,10 +51,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.RestCountriesApplication.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Maven.RestCountriesFx [clean].executor": "Run",
+    "Maven.RestCountriesFx [install].executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -78,11 +97,46 @@
       <option name="project" value="LOCAL" />
       <updated>1708366886893</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="CountryDto, FakeRestCountriesService,&#10;IRestCountries.">
+      <option name="closed" value="true" />
+      <created>1708369972035</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708369972035</updated>
+    </task>
+    <task id="LOCAL-00003" summary="The initialize method was developed to obtain data in the table. Additionally, there is a method associated with a button that allows clearing the list and the comboRegions">
+      <option name="closed" value="true" />
+      <created>1708446591176</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708446591176</updated>
+    </task>
+    <task id="LOCAL-00004" summary="The initialize method was developed to obtain data in the table. Additionally, there is a method associated with a button that allows clearing the list and the comboRegions">
+      <option name="closed" value="true" />
+      <created>1708449876977</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708449876977</updated>
+    </task>
+    <task id="LOCAL-00005" summary="getDataUrl">
+      <option name="closed" value="true" />
+      <created>1708452056407</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708452056407</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creating project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating project" />
+    <MESSAGE value="CountryDto, FakeRestCountriesService,&#10;IRestCountries." />
+    <MESSAGE value="The initialize method was developed to obtain data in the table. Additionally, there is a method associated with a button that allows clearing the list and the comboRegions" />
+    <MESSAGE value="getDataUrl" />
+    <option name="LAST_COMMIT_MESSAGE" value="getDataUrl" />
   </component>
 </project>

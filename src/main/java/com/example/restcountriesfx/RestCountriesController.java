@@ -2,6 +2,7 @@ package com.example.restcountriesfx;
 
 import com.example.restcountriesfx.Models.CountryDTO;
 import com.example.restcountriesfx.Services.FakeRestCountriesService;
+import com.example.restcountriesfx.Services.RestCountriesService;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -39,7 +40,7 @@ public class RestCountriesController {
     private ObservableList<CountryDTO> observableList = FXCollections.observableArrayList();
     @FXML
     public void initialize() {
-        FakeRestCountriesService fakeRestCountriesService = new FakeRestCountriesService();
+        RestCountriesService fakeRestCountriesService = new RestCountriesService();
         comboRegions.getItems().addAll(fakeRestCountriesService.getRegions());
         comboRegions.setOnAction(e -> {
             if(comboRegions.getSelectionModel().getSelectedItem()!= null){
