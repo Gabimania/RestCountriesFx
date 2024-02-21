@@ -1,4 +1,5 @@
 package com.example.restcountriesfx.Models;
+import java.util.Map;
 
 public class CountryDao {
     public Name name;
@@ -6,6 +7,8 @@ public class CountryDao {
     public String region;
     public int population;
     public Flag flags;
-    public Currencies currencies;
+    public Map<String,Currency> currencies;
+
+    public String cca3;
 }
 
