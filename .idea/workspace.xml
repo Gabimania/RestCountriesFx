@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9136fcb-5f32-482e-863b-2604f68c860f" name="Changes" comment="RestCountriesService getRegions">
+    <list default="true" id="d9136fcb-5f32-482e-863b-2604f68c860f" name="Changes" comment=" method tableCountry.setOnKeyPressed in RestCountriesController">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/restcountriesfx/Models/CountryDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/restcountriesfx/Models/CountryDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/restcountriesfx/Models/CountryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/restcountriesfx/Models/CountryDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/restcountriesfx/Models/Currencies.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/restcountriesfx/Models/Currency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/restcountriesfx/Models/Currency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/restcountriesfx/RestCountriesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/restcountriesfx/RestCountriesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/restcountriesfx/Services/FakeRestCountriesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/restcountriesfx/Services/FakeRestCountriesService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/restcountriesfx/Services/IRestCountries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/restcountriesfx/Services/IRestCountries.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/restcountriesfx/Services/RestCountriesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/restcountriesfx/Services/RestCountriesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -61,25 +60,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.RestCountriesApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Maven.RestCountriesFx [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.RestCountriesFx [install].executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.RestCountriesApplication.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Maven.RestCountriesFx [clean].executor": "Run",
+    "Maven.RestCountriesFx [install].executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "HttpClient",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.restcountriesfx.Models" />
@@ -149,7 +148,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708454937064</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="RestCountriesService getRegions">
+      <option name="closed" value="true" />
+      <created>1708535734117</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708535734117</updated>
+    </task>
+    <task id="LOCAL-00008" summary=" method tableCountry.setOnKeyPressed in RestCountriesController">
+      <option name="closed" value="true" />
+      <created>1708536615566</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708536615566</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -158,6 +173,7 @@
     <MESSAGE value="The initialize method was developed to obtain data in the table. Additionally, there is a method associated with a button that allows clearing the list and the comboRegions" />
     <MESSAGE value="getDataUrl" />
     <MESSAGE value="RestCountriesService getRegions" />
-    <option name="LAST_COMMIT_MESSAGE" value="RestCountriesService getRegions" />
+    <MESSAGE value=" method tableCountry.setOnKeyPressed in RestCountriesController" />
+    <option name="LAST_COMMIT_MESSAGE" value=" method tableCountry.setOnKeyPressed in RestCountriesController" />
   </component>
 </project>
