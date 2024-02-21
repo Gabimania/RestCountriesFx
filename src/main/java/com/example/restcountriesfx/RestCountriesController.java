@@ -62,6 +62,16 @@ public class RestCountriesController {
 
 
         });
+        tableCountry.setOnKeyPressed(e->{
+            String countryFifa = tableCountry.getSelectionModel().getSelectedItem().getCca3();
+            CountryDTO countryDTO = fakeRestCountriesService.getCountrybyCca3(countryFifa);
+            txtCountryName.setText(countryDTO.getName());
+            txtCountryCapital.setText(countryDTO.getCapital());
+            txtCountryCoin.setText(countryDTO.getCoin());
+            txtCountryPopulation.setText(String.valueOf(countryDTO.getPopulation()));
+            Image image = new Image(countryDTO.getFlag());
+            imgFlag.setImage(image);
+        });
         countryNameColumn.setCellValueFactory(cell -> new SimpleStringProperty(cell.getValue().getName()));
 
     }
